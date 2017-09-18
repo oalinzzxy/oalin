@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS [效果手册大全] */
+
+/*模糊化背景*/
+.ty-mh{
+	-webkit-filter: blur(10px); /* Chrome, Opera */
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);    
+            filter: blur(10px);
+	}
+	
+/*伪类控制背景透明度 0-1  越靠近0透明度越*/
+.ty-tm{-webkit-filter:opacity(0.3);}
+
+/*div背影 X轴 Y轴 放射范围 颜色  当xy都为0的时候就是div四面边线都有阴影*/
+.ty-by{
+	-webkit-box-shadow: 3px 3px 5px #CCCCCC;
+	-moz-box-shadow: 3px 3px 5px #CCCCCC;
+	box-shadow: 3px 3px 5px #CCCCCC;
+	}
+/*椭圆边框 参数设置为左上 右上 左下 右下*/.ty-ty{	border-radius:15px 15px 0px 0px;}
+/*更改鼠标手势*/.ty_shubiao{cursor: pointer;}

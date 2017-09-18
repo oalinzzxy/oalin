@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+body{text-align:center;}
+#bgt{ width:100%; height:360px; margin-top:0px;  background-color:#1F94EB; z-index:1;}
+
+#cpliebiao{
+	top: 140px;
+	left: 26%;
+	width: 150px;
+	height: 45px;
+	z-index: 0;
+	position: absolute;
+}
+#cpzx{
+	position: absolute;
+	top: 193px;
+	left: 26%;
+	width: 99px;
+	height: 19px;
+	background-color: #000;
+}
+#cpjs{
+	position: absolute;
+	top: 223px;
+	left: 26%;
+	width: 450px;
+	height: 76px;
+}
+
+#cp-cwrj { cursor:pointer;position:absolute; top:120px; left:73%; width:120px; height:25px; background:#FFF; background:rgba(255,255,255,0.3);  padding:6px 0px 0px 3px; font-size:16px; color:#FFF; border-radius:15px; text-align:center;}
+#cp-xnh { cursor:pointer;position:absolute; top:160px; left:73%; width:120px; height:25px; background:#FFF; background:rgba(255,255,255,0.3);  padding:6px 0px 0px 3px; font-size:16px; color:#FFF; border-radius:15px; text-align:center;}
+#cp-sj { cursor:pointer;position:absolute; top:200px; left:73%; width:120px; height:25px; background:#FFF; background:rgba(255,255,255,0.3);  padding:6px 0px 0px 3px; font-size:16px; color:#FFF; border-radius:15px; text-align:center;}
+#cp-jfxs { cursor:pointer;position:absolute; top:240px; left:73%; width:120px; height:25px; background:#FFF; background:rgba(255,255,255,0.3);  padding:6px 0px 0px 3px; font-size:16px; color:#FFF; border-radius:15px; text-align:center;}
+#cp-gwsj { cursor:pointer;position:absolute; top:280px; left:73%; width:120px; height:25px; background:#FFF; background:rgba(255,255,255,0.3);  padding:6px 0px 0px 3px; font-size:16px; color:#FFF; border-radius:15px; text-align:center;}
+#cp-cwrj:hover{ width:140px; margin:0 -10px 0 -10px;}
+#cp-xnh:hover{ width:140px; margin:0 -10px 0 -10px;}
+#cp-sj:hover{ width:140px;margin:0 -10px 0 -10px;}
+#cp-jfxs:hover{ width:140px; margin:0 -10px 0 -10px;}
+#cp-gwsj:hover{ width:140px;margin:0 -10px 0 -10px;}
+
+
+
+
+#js-cwrj-sjx1{border-style: solid;border-width: 0px 0px 150px 150px;border-color: transparent transparent  #06F transparent;width: 0px;height: 0px; transform:rotate(45deg);position:absolute; top:55px; left:7%; z-index:1;}
+#js-cwrj-sjx2{border-style: solid;border-width: 0px 0px 120px 120px;border-color: transparent transparent #FFF transparent;width: 0px;height: 0px; transform:rotate(45deg);position:absolute; top:100px; left:11%; z-index:2;}
+
+#rjwh-hx{ height:30px; width:150px; margin:20px 0 0 80px; background-image:url(../image/2.png) none;}
+
+
+
+
+/*-------------------------目前开始是产品具体介绍div--------------------------*/
+#rjwh-pic-js1{ width:100%; height:350px;  margin:20px 0 0 0;  }
+
+#jishushili{
+	height: 23px;
+	width: 150px;
+	margin: 50px 0 0 85px;
+	float: left;
+	font-size:24px;
+	font-weight:600;
+}
+#jssl{
+	height: 180px;
+	width: 410px;
+	position: absolute;
+	top: 554px;
+	left: 104px;
+	line-height: 25px;
+	overflow: hidden;
+	z-index: 800;
+}
+#SQ{
+	width: 3px;
+	height: 171px;
+	background-color: #333;
+	position: absolute;
+	top: 555px;
+	left: 90px;
+}
+#sqa{
+	height: 24px;
+	width: 243px;
+	font-size: 18px;
+	font-family: "Courier New", Courier, monospace;
+	color: #CCC;
+	position: absolute;
+	top: 526px;
+	left: 105px;
+}
+#rjwh-pic-js1BG{width:420px;height:260px; background-image:url(../image/timg.jpg); background-repeat:no-repeat;
+position:absolute; top:480px; left:54%;}
+
+#rjwh-pic-js2{ width:100%; height:600px; margin:50px 0 0 0;}
+#jpdl{ height:30px; width:120px; font-size:24px;  position: absolute; top:960px; left:54%;}
+#enjp{height:30px; width:120px; font-size:18px; font-family: "Courier New", Courier, monospace; color:#CCC;  position: absolute; top:989px; left:57%;}
+
+#jpdl1{
+	text-align: left;
+	height: 162px;
+	width: 420px;
+	position: absolute;
+	top: 1010px;
+	left: 57%;
+	line-height: 25px;
+	overflow:hidden;
+}
+#pic1,#pic2,#pic3,#pic4{ width:160px; height:160px !important; border:1px  #CCCCCC solid; margin:30px 30px 30px 30px; float:right; text-align:center; }
+#pic1{ position:absolute; top:890px; left:30px;}
+#pic2{ position:absolute; top:890px; left:280px;}
+#pic3{ position:absolute; top:1130px; left:30px;}
+#pic4{ position:absolute; top:1130px; left:280px;}
+.pic1center{ margin-top:55px;}
+
+#pic1:hover{
+	box-shadow:2px 3px 3px #999999;
+	animation: pic1 0.3s;
+	-moz-animation:pic1 0.3s;	/* Firefox */
+	-webkit-animation:pic1 0.3s;	/* Safari 和 Chrome */
+	-o-animation:pic1 0.3s;	/* Opera */
+	/*animation-iteration-count:1;*/
+	animation-fill-mode:forwards;
+	}
+#pic2:hover{
+	box-shadow:2px 3px 3px #999999;
+	animation: pic2 0.3s;
+	-moz-animation:pic2 0.3s;	/* Firefox */
+	-webkit-animation:pic2 0.3s;	/* Safari 和 Chrome */
+	-o-animation:pic2 0.3s;	/* Opera */
+	/*animation-iteration-count:1;*/
+	animation-fill-mode:forwards;
+	}
+#pic3:hover{
+	box-shadow:2px 3px 3px #999999;
+	animation: pic3 0.3s;
+	-moz-animation:pic3 0.3s;	/* Firefox */
+	-webkit-animation:pic3 0.3s;	/* Safari 和 Chrome */
+	-o-animation:pic3 0.3s;	/* Opera */
+	/*animation-iteration-count:1;*/
+	animation-fill-mode:forwards;
+	}
+#pic4:hover{
+	box-shadow:2px 3px 2px #999999;
+	animation: myfirst 0.3s;
+	-moz-animation: myfirst 0.3s;	/* Firefox */
+	-webkit-animation: myfirst 0.3s;	/* Safari 和 Chrome */
+	-o-animation: myfirst 0.3s;	/* Opera */
+	/*animation-iteration-count:1;*/
+	animation-fill-mode:forwards;
+	}
+
+@keyframes myfirst
+{from { position:absolute; top:1130px; left:280px;}to{ position:absolute; top:1128px; left:277px;}}
+@-moz-keyframes myfirst /* Firefox */
+{from { position:absolute; top:1130px; left:280px;}to{ position:absolute; top:1128px; left:277px;}}
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{from { position:absolute; top:1130px; left:280px;}to{ position:absolute; top:1128px; left:277px;}}
+@-o-keyframes myfirst /* Opera */
+{from { position:absolute; top:1130px; left:280px;}to{ position:absolute; top:1128px; left:277px;}}
+/*pic3*/
+@keyframes pic3
+{from { position:absolute; top:1130px; left:30px;}to{ position:absolute; top:1128px; left:27px;}}
+@-moz-keyframes pic3 /* Firefox */
+{from { position:absolute; top:1130px; left:30px;}to{ position:absolute; top:1128px; left:27px;}}
+@-webkit-keyframes pic3 /* Safari and Chrome */
+{from { position:absolute; top:1130px; left:30px;}to{ position:absolute; top:1128px; left:27px;}}
+@-o-keyframes pic3 /* Opera */
+{from { position:absolute; top:1130px; left:30px;}to{ position:absolute; top:1128px; left:27px;}}
+/*pic2*/
+@keyframes pic2
+{from { position:absolute; top:890px; left:280px;}to{ position:absolute; top:888px; left:277px;}}
+@-moz-keyframes pic2 /* Firefox */
+{from { position:absolute; top:890px; left:280px;}to{ position:absolute; top:888px; left:277px;}}
+@-webkit-keyframes pic2 /* Safari and Chrome */
+{from { position:absolute; top:890px; left:280px;}to{ position:absolute; top:888px; left:277px;}}
+@-o-keyframes pic2 /* Opera */
+{from { position:absolute; top:890px; left:280px;}to{ position:absolute; top:888px; left:277px;}}
+/*pic1*/
+@keyframes pic1
+{from { position:absolute; top:890px; left:30px;}to{ position:absolute; top:888px; left:27px;}}
+@-moz-keyframes pic1 /* Firefox */
+{from { position:absolute; top:890px; left:30px;}to{ position:absolute; top:888px; left:27px;}}
+@-webkit-keyframes pic1 /* Safari and Chrome */
+{from { position:absolute; top:890px; left:30px;}to{ position:absolute; top:888px; left:27px;}}
+@-o-keyframes pic1 /* Opera */
+{from { position:absolute; top:890px; left:30px;}to{ position:absolute; top:888px; left:27px;}}
+#AQ{ width:2px; height:100px; background-color: #333; position:absolute; top: 1010px;
+	left: 55%;}
+
+#rjwh-pic-js3{ height:650px; width:100%; background-image:url(../image/whfs-div-bg.png);}
+.whfsjpg{ margin:50px 0 0 40%;}
+
+
+#whfs{
+	height: 35px;
+	width: 230px;
+	position: absolute;
+	top: 1620px;
+	left: 8%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:35px;
+	color:#FFF;
+}
+#sqaa{ height:220px; width:2px; background-color:#FFF; position:absolute;top:1676px; left:8.5%;}
+#whfsen{
+	height: 20px;
+	width: 128px;
+	position: absolute;
+	top: 1676px;
+	left: 10%;
+	font-family:"Courier New", Courier, monospace;
+	font-size:14px;
+	color:#666;
+}
+#whfsnr{ height:270px; width:360px; overflow: hidden; position:absolute; top:1700px; left:10%; color:#FFF; font-family:"楷体"; font-size:20px; line-height:26px;}
+
+
+#rjwh-pic-js4{ width:100%; height:610px; background-color: #000;}
+#cnkj{ width:100%; height:140px;position:relative; text-align:center; top:290px;}
+#cn1{ height:20px; width:100%; top:200px;  position: relative;}
+#cn2,#cn3,#cn4{ width:33%; height:140px;text-align:center; float:left;color:#FFF;}
+#cn3{ border-left:2px  #FFFFFF solid; border-right:2px  #FFFFFF solid;}
+/*--------------------------控制字体颜色--------------------------*/
+
+.color{ color:#FFF;}
+.cp-txt-cole34{
+color:#FFF; font-family: Georgia, "Times New Roman", Times, serif; font-size:34px; text-height:20px; text-shadow:1px 1px 8px #CCC;} 
+.cp-txt-color8{
+color:#CCC; font-family: Georgia, "Times New Roman", Times, serif; font-size:8px; text-height:20px; text-shadow:1px 1px 8px #CCC;}
+.cp-txt-color12{
+color: #FFF; font-family: Georgia, "Times New Roman", Times, serif; font-size:15px; text-height:25px; }
